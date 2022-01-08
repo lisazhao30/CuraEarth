@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/cura-earth/static/css/main.073c9b0a.css",
-    "main.js": "/cura-earth/static/js/main.1afa29e3.js",
-    "static/js/787.b91da6db.chunk.js": "/cura-earth/static/js/787.b91da6db.chunk.js",
+    "main.css": "/cura-earth/static/css/main.cd7f6b0e.css",
+    "main.js": "/cura-earth/static/js/main.d83bccef.js",
     "index.html": "/cura-earth/index.html",
-    "main.073c9b0a.css.map": "/cura-earth/static/css/main.073c9b0a.css.map",
-    "main.1afa29e3.js.map": "/cura-earth/static/js/main.1afa29e3.js.map",
-    "787.b91da6db.chunk.js.map": "/cura-earth/static/js/787.b91da6db.chunk.js.map"
+    "main.cd7f6b0e.css.map": "/cura-earth/static/css/main.cd7f6b0e.css.map",
+    "main.d83bccef.js.map": "/cura-earth/static/js/main.d83bccef.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1afa29e3.js"
+    "static/css/main.cd7f6b0e.css",
+    "static/js/main.d83bccef.js"
   ]
 }
