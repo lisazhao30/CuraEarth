@@ -1,16 +1,16 @@
-const form  = document.getElementById('timedTaskForm') // add this ID to the form or containing div (preferably form)
+const submitButt  = document.getElementById('submitButt') // add this ID to the form or containing div (preferably form)
 
-let time; 
 
 // make sure all time buttons have this name
-/* document.getElementsByName("time").forEach(radio => {
+/*let time = "5 min"; 
+document.getElementsByName("time").forEach(radio => {
     if (radio.checked){
         time = radio.value;
     }
 }) // parse through each radio button and see if it has the 'checked' attribute; if so, set time equal to its value */
 // long-winded way to do it, revert back if shorter way doesn't work 
 
-time = document.querySelector('input[name = "time"]:checked').value
+let time = document.querySelector('input[name = "time"]:checked').value;
 
 const array5 = ["get informed! read a news article", "sort your trash", "turn off unnecessary lights"]
 const array15 = ["urge your local MP to take action", "get cleaning! pick up some neighbourhood trash"]
@@ -44,13 +44,14 @@ const generateTask = time => {
         default:
             task = "oops...something went wrong. please try again"; 
             break;
-    return task;
     }
+    return task;
 }
 
-form.addEventListener('submit', e => {
-    e.preventDefault(); // page won't refresh(??) 
+submitButt.addEventListener('click', e => {
+    // e.preventDefault(); // page won't refresh(??) 
     const task = generateTask(time);
+    console.log(typeof time); // is undefined 
+    console.log(time);
+    document.getElementById("showTask").innerHTML = task;
 })
-
-
