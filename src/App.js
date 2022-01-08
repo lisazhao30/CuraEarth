@@ -1,9 +1,10 @@
 import './App.css';
+import Navbar from './components/Navbar/Navbar.js'
 
 function App() {
   return (
     <div className="App">
-      <h1>cura earth!</h1>
+      <Navbar></Navbar>
     </div>
   );
 }

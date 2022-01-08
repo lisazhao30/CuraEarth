@@ -1,0 +1,27 @@
+#navbar-container {
+    position: fixed;
+    width: 100%;
+    height: 12%;
+    border-bottom: 1.5px solid #315A38;
+
+}
+
+#curaearth {
+    width: 15%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.nav-option{
+    margin: 2%;
+    color: #315A38;
+}
+
+#home {
+    margin-left: 45%;
+}
+
+#logo{
+    width: 2%;
+    margin-left: 5%;
+}
