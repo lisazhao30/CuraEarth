@@ -1,4 +1,4 @@
-const form  = document.getElementById('timedTaskForm') // add this ID to the form to containing div 
+const form  = document.getElementById('timedTaskForm') // add this ID to the form or containing div (preferably form)
 
 let time; 
 
