@@ -11,5 +11,12 @@
     font-family: 'Source Sans Pro';
     color: #315A38;
     font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
 }
 
