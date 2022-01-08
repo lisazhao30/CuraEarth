@@ -1,11 +1,14 @@
 import './App.css';
+//import About from './pages/about';
 import About from './pages/about';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>cura earth!</h1>
-  </div>
+        <Navbar></Navbar>
+        <About></About>
+    </div>
   );
 }
 

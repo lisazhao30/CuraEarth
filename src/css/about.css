@@ -5,6 +5,8 @@
     font-family: 'Montserrat';
     color: #315A38;
     font-size: 40px;
+    position: relative;
+    right: 10vh;
 }
 
 .description {
@@ -16,7 +18,16 @@
 }
 
 .logo {
-    display: flex;
-    justify-content: space-evenly;
+    position: relative;
+    right: 22vh;
 }
 
+.logo2 {
+    position: relative;
+    right: 10vh;
+}
+
+.test {
+    display: flex;
+    justify-content: flex-start;
+}
