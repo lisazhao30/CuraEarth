@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Sans&family=Source+Sans+Pro:wght@700&display=swap');
+
+.title {
+    font-family: 'Montserrat';
+    color: #315A38;
+    font-size: 40px;
+}
+
+.description {
+    font-family: 'Source Sans Pro';
+    color: #315A38;
+    font-size: 24px;
+}
+
