@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cura-earth/static/css/main.073c9b0a.css",
+    "main.js": "/cura-earth/static/js/main.1afa29e3.js",
+    "static/js/787.b91da6db.chunk.js": "/cura-earth/static/js/787.b91da6db.chunk.js",
+    "index.html": "/cura-earth/index.html",
+    "main.073c9b0a.css.map": "/cura-earth/static/css/main.073c9b0a.css.map",
+    "main.1afa29e3.js.map": "/cura-earth/static/js/main.1afa29e3.js.map",
+    "787.b91da6db.chunk.js.map": "/cura-earth/static/js/787.b91da6db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.1afa29e3.js"
+  ]
+}
