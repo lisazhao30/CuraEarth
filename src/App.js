@@ -2,15 +2,22 @@ import './App.css';
 import About from './pages/about';
 import Navbar from './components/Navbar/Navbar';
 import Contact from './components/Contact/Contact';
+import React, { Component } from "react";
 
-function App() {
-  return (
-    <div className="App">
-        <Navbar></Navbar>
-        <About></About>
-        <Contact></Contact>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+          <Navbar></Navbar>
+          <About>
+              id="about"
+          </About>
+          <Contact>
+              id="contact"
+          </Contact>
+      </div>
+    );
+  }
 }
 
 export default App;
