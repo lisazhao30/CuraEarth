@@ -3,12 +3,14 @@ import About from './pages/about';
 import Navbar from './components/Navbar/Navbar';
 import Contact from './components/Contact/Contact';
 import React, { Component } from "react";
+import Beginning from './components/Beginning/Beginning';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
           <Navbar></Navbar>
+          <Beginning></Beginning>
           <About>
           </About>
           <Contact>

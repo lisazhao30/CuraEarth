@@ -1,6 +1,5 @@
 import React from "react"
 import "./Contact.css"
-import curaearth from "./images/curaearth.png"
 import logo from "./images/logo.png"
 import email from "./images/email.svg"
 import subject from "./images/subject.svg"
