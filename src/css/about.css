@@ -6,7 +6,7 @@
     color: #315A38;
     font-size: 40px;
     position: relative;
-    right: 10vh;
+    right: 14vh;
 }
 
 .description {
@@ -17,17 +17,34 @@
     justify-content: center;
 }
 
-.logo {
-    position: relative;
-    right: 22vh;
+/*.rectangle {
+    height: 50px;
+    width: 100px;
+    color: black;
 }
-
-.logo2 {
-    position: relative;
-    right: 10vh;
-}
+*/
 
 .test {
     display: flex;
     justify-content: flex-start;
+    flex-flow: row wrap;
+    border-top: 15vh solid #315A38;
+}
+
+.logo {
+    position: relative;
+    right: 22vh;
+    bottom: 18vh;
+}
+
+.logo2 {
+    position: relative;
+    left: 7vh;
+    bottom: 5vh;
+}
+
+.logo3 {
+    position: relative;
+    left: 42vh;
+    bottom: 46vh;
 }
