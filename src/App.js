@@ -2,11 +2,13 @@ import './App.css';
 import About from './pages/about';
 import Navbar from './components/Navbar/Navbar';
 import Contact from './components/Contact/Contact';
+import Beginning from './components/Beginning/Beginning';
 
 function App() {
   return (
     <div className="App">
         <Navbar></Navbar>
+        <Beginning></Beginning>
         <About></About>
         <Contact></Contact>
     </div>
