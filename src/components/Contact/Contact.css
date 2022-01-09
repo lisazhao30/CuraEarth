@@ -1,0 +1,67 @@
+#contact-container {
+    position: relative;
+    margin-top:90%;
+    width: 100%;
+    height: 50%;
+}
+
+#logo2 {
+    width: 10%;
+    margin-left: 5%;
+}
+
+#header {
+    font-family: 'Montserrat';
+    font-size: 75px;
+    width: 35%;
+    color: #315A38;
+    margin-left:5%;
+    margin-top:1%;
+}
+
+#form-container {
+    position: absolute;
+    left: 50%;
+    font-family: 'Montserrat';
+    width: 60%;
+    bottom: 25%;
+}
+
+.inp {
+    padding:10px;
+    font-family: 'Montserrat';
+    width: 70%;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    left:2%;
+}
+
+.individual-container {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    width: 5%;
+
+    margin-top: 10px;
+    left: -5%;
+}
+
+#textarea{
+    height: 150px;
+}
+
+#contact-btn {
+    position: absolute;
+    background-color:#315A38;
+    color: white;
+    padding: 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    left: 55%;
+    margin-top: 10px;
+}
