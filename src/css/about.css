@@ -1,50 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Source+Sans+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Sans&family=Source+Sans+Pro:wght@700&display=swap');
 
+body {
+    color: #F1F1EE;
+    margin: 0 auto;
+} /* not sure if this did anything lol */ 
+
 .title {
     font-family: 'Montserrat';
     color: #315A38;
     font-size: 40px;
     position: relative;
-    right: 14vh;
+    right: 8vw;
 }
 
 .description {
     font-family: 'Source Sans Pro';
     color: #315A38;
     font-size: 24px;
-    display: flex;
-    justify-content: center;
+    position: relative;
+    left: 21vw;
 }
 
-/*.rectangle {
-    height: 50px;
-    width: 100px;
-    color: black;
+.topStats {
+    display: flex;
+    justify-content: center;
+    gap: 22vw;
+    position: relative;
+    top: 15vh;
 }
-*/
+
+.topStats h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.topStats p {
+    font-family: 'Source Sans Pro';
+    margin-top: 0;
+}
 
 .test {
     display: flex;
     justify-content: flex-start;
     flex-flow: row wrap;
     border-top: 15vh solid #315A38;
+    margin: 0;
+    overflow: hidden; /*hides any overflow (godbless) */
 }
 
 .logo {
     position: relative;
-    right: 22vh;
+    right: 12vw;
     bottom: 18vh;
 }
 
 .logo2 {
     position: relative;
-    left: 7vh;
+    left: 4vw;
     bottom: 5vh;
 }
 
 .logo3 {
     position: relative;
-    left: 42vh;
+    left: 23vw;
     bottom: 46vh;
+}
+
+.logo4 {
+    position: relative;
+    left: 40vw;
+    bottom: 30vh;
+}
+
+.name {
+    position: relative;
+    left: 5vw;
+    bottom: 7vh;
+}
+
+.name2 {
+    position: relative;
+    right: 16.5vw;
+    bottom: 12vh;
 }
