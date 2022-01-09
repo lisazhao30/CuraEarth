@@ -3,8 +3,8 @@
 
 body {
     color: #F1F1EE;
-    margin: 0 auto;
-} /* not sure if this did anything lol */ 
+    margin-bottom: 0;
+} 
 
 .title {
     font-family: 'Montserrat';
@@ -47,7 +47,6 @@ body {
     justify-content: flex-start;
     flex-flow: row wrap;
     border-top: 15vh solid #315A38;
-    margin: 0;
     overflow: hidden; /*hides any overflow (godbless) */
 }
 
