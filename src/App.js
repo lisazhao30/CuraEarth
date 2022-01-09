@@ -10,10 +10,8 @@ class App extends Component {
       <div className="App">
           <Navbar></Navbar>
           <About>
-              id="about"
           </About>
           <Contact>
-              id="contact"
           </Contact>
       </div>
     );
