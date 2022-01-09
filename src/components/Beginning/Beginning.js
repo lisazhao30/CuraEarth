@@ -77,7 +77,7 @@ const Beginning = () => {
             document.getElementById("task-title").innerHTML = "Shop second-hand."
             document.getElementById("task-time").classList.remove('hide')
             document.getElementById("task-time").innerHTML = "Time: 2 hrs"
-            document.getElementById("home-box2").innerHTML = "Thrifting can be fun way to get unique one-of-a-kind clothingn while lowering your carbon footprint. North Americans send 10 million tonnes of clothing to the landfill every year. Participate in slow fashion!"
+            document.getElementById("home-box2").innerHTML = "Thrifting can be fun way to get unique one-of-a-kind clothing while lowering your carbon footprint. North Americans send 10 million tonnes of clothing to the landfill every year. Participate in slow fashion!"
         }
         else if (clickedBtn.id === "24hr"){
             document.getElementById("task-title").innerHTML = "Get composting"
