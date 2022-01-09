@@ -17,7 +17,7 @@ const Contact = () => {
                 <br></br>
                 <span class = "individual-container">
                     <img class = "icon" src = {subject}></img>
-                    <input class = "inp" placeholder = "Type your email here"></input> 
+                    <input class = "inp" placeholder = "Type your subject here"></input> 
                 </span>
                 <br></br>
                 <span class = "individual-container">
@@ -27,7 +27,6 @@ const Contact = () => {
                 <button id = "contact-btn">Contact Us!</button>
             </div>
             <div id = "header">Let's shape the Earth.</div>
-
         </div>
     )
 }

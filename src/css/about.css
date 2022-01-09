@@ -5,11 +5,16 @@ body {
     color: #F1F1EE;
 } 
 
+.about-section {
+    max-height: 190vh;
+    overflow: hidden;
+}
+
 .title {
     font-family: 'Montserrat';
     color: #315A38;
     font-size: 40px;
-    position: relative;
+    position: relative; /* using relative for position causes empty space to appear at the bottom */
     right: 8vw;
 }
 
