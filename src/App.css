@@ -8,20 +8,6 @@ body {
   position: relative;
 }
 
-#vert-line{
-  position: absolute;
-  border-left: 1px solid #315A38;
-  height: 100%;
-  left: 6%;
-}
-
-#vert-line2{
-  position: absolute;
-  border-left: 1px solid #315A38;
-  height: 100%;
-  left: 94%;
-}
-
 #title {
   font-family: 'Montserrat';
   color:#315A38;
