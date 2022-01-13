@@ -1,0 +1,121 @@
+#beginning-container {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    color: #315A38;
+    font-family: 'Montserrat';
+    overflow: hidden;
+}
+
+.whatever {
+    color: black;
+}
+
+#home-text {
+    font-size: 60px;
+    width: 35%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#subtext{
+    margin-left: 5%;
+    width: 30%;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+.button-box {
+    position: relative;
+    height:40px;
+    width: 60%;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+
+.time-btn {
+    color:#315A38;
+    background-color: white;
+ 
+}
+
+.time-btn:hover {
+    background-color:#315A38;
+    color: white;
+}
+
+#confirm-btn {
+    position: relative;
+    margin-left: 5%;
+    left: 54%;
+    margin-top: 1%;
+    color: white;
+    background-color:#315A38;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 30px;
+
+}
+.btn {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    border-radius: 20px;
+    margin-left:55px;
+    margin-top: 3px;
+    padding: 5px;
+    border: none;
+}
+
+#home-box1 {
+    background-color: #315A38;
+    color: white;
+    margin-left: 5%;
+}
+
+#home-box2 {
+    left: 30%;
+    background-color: white;
+    margin-left: 2%;
+}
+
+.home-box {
+    position: absolute;
+    width: 22%;
+    height: 25%;
+
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#box-logo2{
+    width: 10%;
+}
+
+.inner-box-text{
+    position: relative;
+}
+
+#task-title{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#task-time{
+    margin-top: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.clicked {
+    background-color:#315A38;
+    color: white;
+}
+
+.text {
+    position: relative;
+    top: 40vh;
+}

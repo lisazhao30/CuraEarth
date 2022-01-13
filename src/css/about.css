@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Sans&family=Source+Sans+Pro:wght@700&display=swap');
+
+body {
+    color: #F1F1EE;
+} 
+
+.about-section {
+    position: relative;
+    bottom: 16vh;
+    max-height: 170vh;
+    overflow: hidden;
+}
+
+.title {
+    font-family: 'Montserrat';
+    color: #315A38;
+    font-size: 40px;
+    position: relative; /* using relative for position causes empty space to appear at the bottom */
+    right: 8vw;
+}
+
+.description {
+    font-family: 'Source Sans Pro';
+    color: #315A38;
+    font-size: 24px;
+    position: relative;
+    left: 20vw;
+    bottom: 3vh;
+}
+
+.topStats {
+    display: flex;
+    justify-content: center;
+    gap: 22vw;
+    position: relative;
+    top: 15vh;
+}
+
+.topStats h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.topStats p {
+    font-family: 'Source Sans Pro';
+    margin-top: 0;
+}
+
+.test {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    border-top: 15vh solid #315A38;
+    overflow: hidden; /*hides any overflow (godbless) */ 
+}
+
+.logo {
+    position: relative;
+    right: 12vw;
+    bottom: 18vh;
+}
+
+.logo2 {
+    position: relative;
+    left: 4vw;
+    bottom: 5vh;
+}
+
+.logo3 {
+    position: relative;
+    left: 23vw;
+    bottom: 46vh;
+}
+
+.logo4 {
+    position: relative;
+    left: 95vw;
+    bottom: 120vh;
+}
+
+.name {
+    position: relative;
+    left: 5vw;
+    bottom: 7vh;
+}
+
+.name2 {
+    position: relative;
+    right: 16.5vw;
+    bottom: 12vh;
+}

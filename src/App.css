@@ -1,0 +1,20 @@
+body {
+  background-color: #E5E5E5;
+}
+
+#App{
+  width:100%;
+  height:100%;
+  position: relative;
+}
+
+#title {
+  font-family: 'Montserrat';
+  color:#315A38;
+  font-weight: bold;
+  position: absolute;
+  left: 15%;
+  top: 25%;
+  font-size: 75px;
+  width: 33%;
+}
